@@ -11,7 +11,7 @@ git clone -b beta https://github.com/flutter/flutter.git
 //lo ejecutamos en el directorio donde queremos tener nuestro sdk por ejemplo crearemos una carpeta /Repositorio
 
 2) [Descargamos] este repositorio:
-git clone https://[nombreusuario]@bitbucket.org/uabgrauinformatica/sportin.git
+git clone https://github.com/adions025/SportIn.git
 // en la misma carpeta que se ha descargado el SDK anteriormente y al mismo nivel
 // por lo tanto tendremos en /Repositorio dos carpetas una el SDK(flutter) y otra el proyecto(sportin)
 
@@ -23,7 +23,7 @@ export PATH=$PWD/flutter/bin:$PATH
 4) Nos movemos al directorio del proyecto /Repositorio/sportin
 cd sportin/
 
-5)Ejecutamos nuestra app
+5) Ejecutamos nuestra app
 flutter run
 // deberiamos tener abierto nuestro emulado de android/ios
 
